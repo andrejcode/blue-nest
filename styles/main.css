@@ -67,10 +67,10 @@ header {
 .main-nav ul {
   list-style-type: none;
   display: flex;
-  gap: 12px;
+  gap: 32px;
 }
 
-.page-link {
+.nav-link {
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
