@@ -1,4 +1,4 @@
-.hero {
+.hero-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,6 +25,67 @@
   height: auto;
 }
 
+.services-section {
+  padding: 24px 10%;
+}
+
+.services-section h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.service img {
+  width: 280px;
+  height: 200px;
+}
+
+.service figcaption {
+  text-align: center;
+  color: #1f2937;
+}
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 64px 10%;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.quote-author {
+  font-weight: 700;
+  margin-top: 12px;
+  font-size: 16px;
+  align-self: flex-end;
+}
+
 @media (max-width: 1024px) {
   .hero-image {
     display: none;
@@ -32,9 +93,25 @@
 }
 
 @media (max-width: 768px) {
-  .hero {
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-section,
+  .services-section,
+  .quote-section {
     padding-left: 16px;
     padding-right: 16px;
-    flex-direction: column;
+  }
+
+  .quote {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .service img {
+    width: 100%;
+    height: auto;
   }
 }
