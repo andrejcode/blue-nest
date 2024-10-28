@@ -86,6 +86,19 @@ footer p {
   padding: 16px;
 }
 
+.btn-primary {
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  color: #f9faf8;
+  background-color: #3882f6;
+}
+
+.btn-primary:hover {
+  background-color: #2b6ccf;
+}
+
 @media (max-width: 768px) {
   header {
     padding: 20px 16px;
