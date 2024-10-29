@@ -45,6 +45,10 @@
   gap: 16px;
 }
 
+.services-list>a {
+  text-decoration: none;
+}
+
 .service img {
   width: 280px;
   height: 200px;
