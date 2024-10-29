@@ -1,104 +1,97 @@
 .services-section {
-    padding: 24px 10%;
+  padding: 24px 10%;
 }
 
 .services-section .service:not(:last-child) {
-    padding-bottom: 96px;
-}
-
-.services-section h2 {
-    padding: 48px 0 96px 0;
-    text-align: center;
-    color: #2b6ccf;
-    text-transform: uppercase;
+  padding-bottom: 96px;
 }
 
 .service {
-    display: flex;
-    gap: 32px;
+  display: flex;
+  gap: 32px;
 }
 
 .service>div {
-    flex: 1;
+  flex: 1;
 }
 
 .service-text-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
 }
 
 .service-text-box>* {
-    flex: 0;
+  flex: 0;
 }
 
 .service-img-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .service-img-box img {
-    width: 70%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.25);
+  width: 70%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.25);
 }
 
 .service-header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-grow: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 0;
 }
 
 .service-header i {
-    background-color: #1F2937;
-    color: #e5e7eb;
-    padding: 10px;
-    width: 40px;
-    height: 40px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    font-size: 20px;
+  background-color: #1F2937;
+  color: #e5e7eb;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
 }
 
 .service-title {
-    color: #1F2937;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1.2;
+  color: #1F2937;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
 }
 
 .service-description {
-    font-size: 18px;
-    line-height: 1.8;
+  font-size: 18px;
+  line-height: 1.8;
 }
 
 .service-benefits {
-    list-style-type: none;
-    font-size: 18px;
+  list-style-type: none;
+  font-size: 18px;
 }
 
 .service-benefits strong {
-    color: #2b6ccf;
+  color: #2b6ccf;
 }
 
 .service-benefits *:not(:last-child) {
-    padding-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 @media (max-width: 768px) {
-    .service {
-        flex-direction: column;
-    }
+  .service {
+    flex-direction: column;
+  }
 
-    .services-section .service:nth-child(3),
-    .services-section .service:nth-child(5) {
-        flex-direction: column-reverse;
-    }
+  .services-section .service:nth-child(3),
+  .services-section .service:nth-child(5) {
+    flex-direction: column-reverse;
+  }
 }

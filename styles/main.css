@@ -107,6 +107,14 @@ footer p {
   background-color: #2b6ccf;
 }
 
+.services-section h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
 @media (max-width: 768px) {
   header {
     padding: 20px 16px;
