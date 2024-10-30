@@ -47,10 +47,6 @@
 
 .services-list>a {
   text-decoration: none;
-  flex: 1 1 calc(50% - 16px);
-  /* By default, take up 50% of row width, making 2 items per row */
-  max-width: calc(50% - 16px);
-  /* Ensures no item grows beyond 50% */
 }
 
 .service img {
