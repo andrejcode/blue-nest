@@ -16,6 +16,7 @@ body {
 }
 
 .logo {
+  display: block;
   font-size: 24px;
   color: #f9faf8;
   text-decoration: none;

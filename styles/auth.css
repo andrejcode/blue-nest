@@ -10,12 +10,9 @@ body {
   text-align: center;
 }
 
-.logo-container {
+.auth-logo {
   text-align: left;
   margin-bottom: 16px;
-}
-
-.logo {
   color: #1f2937;
 }
 
