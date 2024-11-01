@@ -5,12 +5,6 @@
   padding: 2rem;
 }
 
-.about-impact p {
-  font-size: 1rem;
-  color: #1f2937;
-  line-height: 1.6;
-}
-
 .impact-image {
   width: 300px;
   height: 300px;
@@ -22,19 +16,6 @@
   background: #f5f9ff;
   text-align: center;
   padding: 3rem 1.5rem;
-}
-
-.about-hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 48px;
-  color: #1f2937;
-  font-weight: 900;
-}
-
-.about-hero p {
-  font-size: 18px;
-  color: #555;
 }
 
 .about-mission {
@@ -49,12 +30,6 @@
 .about-mission>.mission-image {
   flex: 1;
   max-width: 50%;
-}
-
-.about-mission p {
-  font-size: 1rem;
-  color: #1f2937;
-  line-height: 1.6;
 }
 
 .mission-image {
