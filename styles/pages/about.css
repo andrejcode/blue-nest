@@ -5,13 +5,6 @@
   padding: 2rem;
 }
 
-.about-impact h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #1f2937;
-  margin-bottom: 1rem;
-}
-
 .about-impact p {
   font-size: 1rem;
   color: #1f2937;
@@ -41,7 +34,7 @@
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   font-size: 48px;
-  color: black;
+  color: #1f2937;
   font-weight: 900;
 }
 
@@ -55,13 +48,6 @@
   align-items: center;
   gap: 2rem;
   padding: 2rem 10%;
-}
-
-.about-mission h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #1f2937;
-  margin-bottom: 1rem;
 }
 
 .about-mission p {
@@ -92,16 +78,6 @@
 .about-team,
 .about-impact {
   padding: 2rem 10%;
-}
-
-.about-mission h2,
-.about-story h2,
-.about-values h2,
-.about-team h2,
-.about-impact h2 {
-  font-size: 36px;
-  color: #1f2937;
-  margin-bottom: 0.75rem;
 }
 
 .about-mission p,
