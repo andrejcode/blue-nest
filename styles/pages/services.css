@@ -86,6 +86,10 @@
     flex-direction: column;
   }
 
+  .services-section {
+    padding: 24px 16px;
+  }
+
   .services-section .service:nth-child(3),
   .services-section .service:nth-child(5) {
     flex-direction: column-reverse;
