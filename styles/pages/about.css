@@ -127,7 +127,7 @@
   margin-bottom: 1.5rem;
 }
 
-.about-cta .btn-primary {
+.about-cta-link .btn-primary {
   background: #ffbe0b;
   color: #0044cc;
   padding: 0.8rem 1.5rem;
@@ -137,7 +137,7 @@
   font-weight: 500;
 }
 
-.about-cta .btn-primary:hover {
+.about-cta-link .btn-primary:hover {
   background: #ffd65b;
 }
 
