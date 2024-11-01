@@ -1,11 +1,11 @@
 .cta-section {
-  padding: 64px 10%;
+  padding: 4rem 10%;
 }
 
 .cta-container {
   background-color: #3882f6;
   border-radius: 8px;
-  padding: 24px 48px;
+  padding: 1.5rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,7 @@
 }
 
 .cta-text-container p {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #f9faf8;
 }
 
@@ -27,18 +27,18 @@
 
 @media (max-width: 768px) {
   .cta-section {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .cta-container {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 24px;
+    padding: 1.5rem;
   }
 
   .cta-button {
-    margin-top: 12px;
+    margin-top: 0.75rem;
   }
 }

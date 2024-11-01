@@ -4,7 +4,7 @@ header {
   background-color: #1f2937;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 10%;
+  padding: 1.5rem 10%;
 }
 
 .menu-icon {
@@ -47,18 +47,18 @@ header {
 .main-nav ul {
   list-style-type: none;
   display: flex;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .nav-link {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #e5e7eb;
   text-decoration: none;
 }
 
 @media (max-width: 768px) {
   header {
-    padding: 20px 16px;
+    padding: 1.25rem 1rem;
   }
 
   .menu-icon {
@@ -72,15 +72,15 @@ header {
     top: 100%;
     left: 0;
     right: 0;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
     background-color: #1f2937;
     z-index: 10;
   }
 
   .main-nav ul {
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
     padding-bottom: 20px;
   }
 
