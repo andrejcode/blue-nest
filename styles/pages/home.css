@@ -4,7 +4,13 @@
   align-items: center;
   padding: 24px 10%;
   background-color: #1f2937;
-  gap: 24px;
+  gap: 32px;
+}
+
+.hero-section>div,
+.hero-section>img {
+  flex: 1;
+  max-width: 50%;
 }
 
 .hero-title {
@@ -14,15 +20,16 @@
 }
 
 .hero-text {
-  margin: 12px 0;
+  margin: 16px 0;
   font-size: 18px;
   color: #e5e7eb;
   text-align: justify;
 }
 
 .hero-image {
-  width: 40%;
+  max-height: 400px;
   height: auto;
+  width: auto;
 }
 
 .services-section {
@@ -57,6 +64,7 @@
 .service figcaption {
   text-align: center;
   color: #1f2937;
+  margin-top: 4px;
 }
 
 .quote-section {
@@ -93,6 +101,10 @@
 @media (max-width: 1024px) {
   .hero-image {
     display: none;
+  }
+
+  .hero-section>div {
+    max-width: 100%;
   }
 }
 
