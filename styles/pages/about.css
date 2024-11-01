@@ -19,11 +19,6 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.about-mission .text-content,
-.about-mission .impact-content {
-  flex: 1;
-}
-
 .about-hero {
   background: #f5f9ff;
   text-align: center;
