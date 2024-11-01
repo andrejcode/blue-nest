@@ -2,114 +2,115 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/pages/about.css">
-    <title>About Us | BlueNest</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/pages/about.css">
+  <link rel="stylesheet" href="../styles/header.css">
+  <title>About Us | BlueNest</title>
 </head>
 
 <body>
-    <header>
-        <div>
-            <a href="../index.html" class="logo">BlueNest</a>
+  <header>
+    <div>
+      <a href="../index.html" class="logo">BlueNest</a>
+    </div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <div class="first-line"></div>
+      <div class="second-line"></div>
+      <div class="third-line"></div>
+    </label>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="./services.html" class="nav-link">Services</a></li>
+        <li><a href="./about.html" class="nav-link">About</a></li>
+        <li><a href="./login.html" class="nav-link">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about-hero">
+
+      <h1>About BlueNest</h1>
+      <p>Your partner in achieving financial wellness and making informed decisions about your future.</p>
+
+    </section>
+
+    <section class="about-mission">
+      <div class="text-content">
+        <h2>Our Mission</h2>
+        <p>
+          BlueNest was founded with a simple goal: to empower individuals to take control of their finances.
+          We
+          believe that financial literacy and smart planning are the keys to a secure and fulfilling life. Our
+          platform is dedicated to helping users manage their money effectively and achieve their dreams.
+        </p>
+      </div>
+      <img src="../images/mission1.jpg" alt="Goal-oriented planning" class="mission-image">
+    </section>
+
+    <section class="about-team">
+      <h2>Meet Our Team</h2>
+      <p>
+        Our team is a group of passionate professionals with backgrounds in finance, technology, and education.
+        We are united by our commitment to making financial wellness accessible to everyone.
+      </p>
+      <div class="team-gallery">
+        <div class="team-card">
+          <img src="../images/new-york.jpg" alt="Team member 1" class="team-photo">
+          <div class="team-info">
+            <h3>John Doe</h3>
+            <p>New York, USA</p>
+          </div>
         </div>
-
-        <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="menu-icon">
-            <div class="first-line"></div>
-            <div class="second-line"></div>
-            <div class="third-line"></div>
-        </label>
-
-        <nav class="main-nav">
-            <ul>
-                <li><a href="./services.html" class="nav-link">Services</a></li>
-                <li><a href="./about.html" class="nav-link">About</a></li>
-                <li><a href="./sign-up.html" class="nav-link">Sign Up</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="about-hero">
-
-            <h1>About BlueNest</h1>
-            <p>Your partner in achieving financial wellness and making informed decisions about your future.</p>
-
-        </section>
-
-        <section class="about-mission">
-            <div class="text-content">
-                <h2>Our Mission</h2>
-                <p>
-                    BlueNest was founded with a simple goal: to empower individuals to take control of their finances.
-                    We
-                    believe that financial literacy and smart planning are the keys to a secure and fulfilling life. Our
-                    platform is dedicated to helping users manage their money effectively and achieve their dreams.
-                </p>
-            </div>
-            <img src="../images/mission1.jpg" alt="Goal-oriented planning" class="mission-image">
-        </section>
-
-        <section class="about-team">
-            <h2>Meet Our Team</h2>
-            <p>
-                Our team is a group of passionate professionals with backgrounds in finance, technology, and education.
-                We are united by our commitment to making financial wellness accessible to everyone.
-            </p>
-            <div class="team-gallery">
-                <div class="team-card">
-                    <img src="../images/new-york.jpg" alt="Team member 1" class="team-photo">
-                    <div class="team-info">
-                        <h3>John Doe</h3>
-                        <p>New York, USA</p>
-                    </div>
-                </div>
-                <div class="team-card">
-                    <img src="../images/frankfurt.jpg" alt="Team member 2" class="team-photo">
-                    <div class="team-info">
-                        <h3>Jane Smith</h3>
-                        <p>Frankfurt, Germany</p>
-                    </div>
-                </div>
-                <div class="team-card">
-                    <img src="../images/berlin.jpg" alt="Team member 3" class="team-photo">
-                    <div class="team-info">
-                        <h3>Emily Johnson</h3>
-                        <p>Berlin, Germany</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <div class="team-card">
+          <img src="../images/frankfurt.jpg" alt="Team member 2" class="team-photo">
+          <div class="team-info">
+            <h3>Jane Smith</h3>
+            <p>Frankfurt, Germany</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="../images/berlin.jpg" alt="Team member 3" class="team-photo">
+          <div class="team-info">
+            <h3>Emily Johnson</h3>
+            <p>Berlin, Germany</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
-        <section class="about-impact">
-            <div class="impact-content">
-                <h2>Our Impact</h2>
-                <p>
-                    Since launching, BlueNest has helped thousands of users achieve their financial goals. Whether it's
-                    saving for a vacation, reducing debt, or investing wisely, our users are reaching milestones and
-                    taking
-                    control of their financial futures.
-                </p>
-            </div>
-            <img src="../images/impact.jpg" alt="Positive impact" class="impact-image">
-        </section>
+    <section class="about-impact">
+      <div class="impact-content">
+        <h2>Our Impact</h2>
+        <p>
+          Since launching, BlueNest has helped thousands of users achieve their financial goals. Whether it's
+          saving for a vacation, reducing debt, or investing wisely, our users are reaching milestones and
+          taking
+          control of their financial futures.
+        </p>
+      </div>
+      <img src="../images/impact.jpg" alt="Positive impact" class="impact-image">
+    </section>
 
-        <section class="about-cta">
-            <h2>Ready to Take Control?</h2>
-            <p>Join BlueNest and start your journey towards financial well-being today.</p>
-            <a href="../sign-up.html" class="btn-primary">Get Started</a>
-        </section>
-    </main>
+    <section class="about-cta">
+      <h2>Ready to Take Control?</h2>
+      <p>Join BlueNest and start your journey towards financial well-being today.</p>
+      <a href="../sign-up.html" class="btn-primary">Get Started</a>
+    </section>
+  </main>
 
-    <footer>
-        <p>Copyright &copy; BlueNest 2024</p>
-    </footer>
+  <footer>
+    <p>Copyright &copy; BlueNest 2024</p>
+  </footer>
 </body>
 
 </html>
