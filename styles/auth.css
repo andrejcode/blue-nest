@@ -36,9 +36,14 @@ body {
   margin-bottom: 8px;
 }
 
-a .auth-button {
+.auth-button {
   margin-top: 4px;
   width: 100%;
+}
+
+.auth-link-container {
+  text-align: left;
+  margin-top: 12px;
 }
 
 @media (max-width: 1024px) {
