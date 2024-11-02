@@ -11,12 +11,32 @@
     rel="stylesheet">
   <link rel="stylesheet" href="../styles/main.css">
   <link rel="stylesheet" href="../styles/auth.css">
+  <link rel="stylesheet" href="../styles/header.css">
   <title>Signup | BlueNest</title>
 </head>
 
 <body>
+  <header>
+    <a href="./index.html" class="logo">BlueNest</a>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <div class="first-line"></div>
+      <div class="second-line"></div>
+      <div class="third-line"></div>
+    </label>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="./pages/services.html" class="nav-link">Services</a></li>
+        <li><a href="./pages/about.html" class="nav-link">About</a></li>
+        <li><a href="./pages/login.html" class="nav-link">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <main class="auth-container">
-    <a href="../index.html" class="auth-logo logo">BlueNest</a>
+    <h1 class="auth-title">Sign up to BlueNest</h1>
 
     <form class="auth-form">
       <label for="name" class="auth-label">Full Name</label>
@@ -38,6 +58,10 @@
       <a href="./login.html" class="auth-link">Already have an account?</a>
     </div>
   </main>
+
+  <footer>
+    <p>Copyright &copy; BlueNest 2024</p>
+  </footer>
 </body>
 
 </html>

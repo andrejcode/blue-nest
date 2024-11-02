@@ -1,16 +1,18 @@
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   height: 100vh;
 }
 
 .auth-container {
+  margin: auto;
+  justify-self: center;
+  align-self: center;
   width: 50%;
   text-align: center;
 }
 
-.auth-logo {
+.auth-title {
   text-align: left;
   margin-bottom: 1rem;
   color: #1f2937;
