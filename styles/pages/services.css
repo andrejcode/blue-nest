@@ -1,84 +1,81 @@
+.services-hero {
+  background: #f5f9ff;
+  text-align: center;
+  padding: 2rem 10%;
+  margin-bottom: 4rem;
+}
+
 .services-section {
-  padding: 24px 10%;
+  padding: 2rem 10%;
 }
 
 .services-section .service:not(:last-child) {
-  padding-bottom: 96px;
+  padding-bottom: 6rem;
 }
 
 .service {
   display: flex;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .service>div {
   flex: 1;
 }
 
-.service__content {
+.service-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  gap: 2rem;
 }
 
-.service__content>* {
+.service-content>* {
   flex: 0;
 }
 
-.service__img-container {
+.service-img-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.service__img-container img {
-  width: 70%;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  border-radius: 50%;
+.service-img-container img {
+  width: 80%;
+  border-radius: 8px;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.25);
 }
 
-.service__header {
+.service-header {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   color: #1F2937;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 1.2;
 }
 
-.service__header i {
+.service-header i {
   background-color: #1F2937;
   color: #e5e7eb;
-  padding: 10px;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
-.service__description {
-  font-size: 18px;
-  line-height: 1.8;
-}
-
-.service__benefits {
+.service-benefits {
   list-style-type: none;
-  font-size: 18px;
+  font-size: 1.125rem;
+  color: #1F2937;
 }
 
-.service__benefits strong {
+.service-benefits strong {
   color: #2b6ccf;
 }
 
-.service__benefits *:not(:last-child) {
-  padding-bottom: 16px;
+.service-benefits *:not(:last-child) {
+  padding-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -86,12 +83,13 @@
     flex-direction: column;
   }
 
+  .services-hero,
   .services-section {
-    padding: 24px 16px;
+    padding: 1.5rem 1rem;
   }
 
-  .services-section .service:nth-child(3),
-  .services-section .service:nth-child(5) {
+  .services-section .service:nth-child(2),
+  .services-section .service:nth-child(4) {
     flex-direction: column-reverse;
   }
 }

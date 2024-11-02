@@ -5,30 +5,11 @@
   padding: 2rem;
 }
 
-.about-impact h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #1f2937;
-  margin-bottom: 1rem;
-}
-
-.about-impact p {
-  font-size: 1rem;
-  color: #1f2937;
-  line-height: 1.6;
-}
-
 .impact-image {
   width: 300px;
   height: 300px;
   border-radius: 8px;
-  object-fit: cover;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.about-mission .text-content,
-.about-mission .impact-content {
-  flex: 1;
 }
 
 .about-hero {
@@ -37,44 +18,25 @@
   padding: 3rem 1.5rem;
 }
 
-.about-hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 48px;
-  color: black;
-  font-weight: 900;
-}
-
-.about-hero p {
-  font-size: 18px;
-  color: #555;
-}
-
 .about-mission {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 2rem;
   padding: 2rem 10%;
 }
 
-.about-mission h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #1f2937;
-  margin-bottom: 1rem;
-}
-
-.about-mission p {
-  font-size: 1rem;
-  color: #1f2937;
-  line-height: 1.6;
+.about-mission>.text-content,
+.about-mission>.mission-image {
+  flex: 1;
+  max-width: 50%;
 }
 
 .mission-image {
-  width: 300px;
-  height: 300px;
+  width: auto;
+  height: auto;
+  max-height: 300px;
   border-radius: 8px;
-  object-fit: cover;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -82,8 +44,6 @@
 .about-story img,
 .about-values img,
 .about-impact img {
-  width: 100%;
-  max-width: 500px;
   display: block;
   margin: 1.5rem auto;
   border-radius: 8px;
@@ -92,16 +52,6 @@
 .about-team,
 .about-impact {
   padding: 2rem 10%;
-}
-
-.about-mission h2,
-.about-story h2,
-.about-values h2,
-.about-team h2,
-.about-impact h2 {
-  font-size: 36px;
-  color: #1f2937;
-  margin-bottom: 0.75rem;
 }
 
 .about-mission p,
@@ -151,7 +101,7 @@
   margin-bottom: 1.5rem;
 }
 
-.about-cta .btn-primary {
+.about-cta-link .btn-primary {
   background: #ffbe0b;
   color: #0044cc;
   padding: 0.8rem 1.5rem;
@@ -161,7 +111,7 @@
   font-weight: 500;
 }
 
-.about-cta .btn-primary:hover {
+.about-cta-link .btn-primary:hover {
   background: #ffd65b;
 }
 
@@ -201,6 +151,11 @@
   .about-impact,
   .about-mission {
     padding: 2rem 16px;
+  }
+
+  .about-mission>.text-content,
+  .about-mission>.mission-image {
+    max-width: 100%;
   }
 
   .about-mission {

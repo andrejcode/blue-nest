@@ -6,18 +6,18 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
 }
 
 .logo {
   display: block;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #f9faf8;
   text-decoration: none;
   font-weight: 500;
@@ -30,30 +30,43 @@ footer {
 
 footer p {
   color: #f9faf8;
-  padding: 16px;
+  padding: 1rem;
 }
 
 .btn-primary {
   cursor: pointer;
-  padding: 12px;
-  border-radius: 8px;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
   border: none;
   color: #f9faf8;
   background-color: #3882f6;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .btn-primary:hover {
   background-color: #2b6ccf;
 }
 
-.services-section h2 {
+.heading-primary,
+.heading-secondary {
   color: #1f2937;
-  font-size: 36px;
   font-weight: 900;
-  text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 1rem;
+}
+
+.heading-primary {
+  font-size: 2.5rem;
+}
+
+.heading-secondary {
+  font-size: 2rem;
+}
+
+.p-standard {
+  font-size: 1.125rem;
+  color: #1f2937;
+  line-height: 1.6;
 }

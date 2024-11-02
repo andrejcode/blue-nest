@@ -2,9 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 10%;
+  padding: 1.5rem 10%;
   background-color: #1f2937;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .hero-section>div,
@@ -14,14 +14,14 @@
 }
 
 .hero-title {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
   color: #f9faf8;
 }
 
 .hero-text {
-  margin: 16px 0;
-  font-size: 18px;
+  margin: 1rem 0;
+  font-size: 1.125rem;
   color: #e5e7eb;
   text-align: justify;
 }
@@ -30,18 +30,16 @@
   max-height: 400px;
   height: auto;
   width: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
 }
 
 .services-section {
-  padding: 24px 10%;
+  padding: 2rem 10%;
 }
 
 .services-section h2 {
-  color: #1F2937;
-  font-size: 36px;
-  font-weight: 900;
   text-align: center;
-  margin-bottom: 32px;
 }
 
 .services-list {
@@ -49,7 +47,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
+  margin: 1.5rem 0;
 }
 
 .services-list>a {
@@ -59,12 +58,14 @@
 .service img {
   width: 280px;
   height: 200px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .service figcaption {
   text-align: center;
   color: #1f2937;
-  margin-top: 4px;
+  margin-top: 0.25rem;
 }
 
 .quote-section {
@@ -72,7 +73,7 @@
   justify-content: center;
   align-items: center;
   background-color: #e5e7eb;
-  padding: 64px 10%;
+  padding: 4rem 10%;
 }
 
 .quote {
@@ -86,15 +87,14 @@
 .quote-text {
   color: #1f2937;
   font-style: italic;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 300;
   text-align: justify;
 }
 
 .quote-author {
   font-weight: 700;
-  margin-top: 12px;
-  font-size: 16px;
+  margin-top: 0.75rem;
   align-self: flex-end;
 }
 
@@ -116,8 +116,8 @@
   .hero-section,
   .services-section,
   .quote-sectio {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .quote {
