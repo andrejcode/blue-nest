@@ -5,6 +5,10 @@
   padding: 2rem;
 }
 
+.p-standard {
+  text-align: justify;
+}
+
 .impact-image {
   width: 300px;
   height: 300px;
@@ -15,7 +19,7 @@
 .about-hero {
   background: #f5f9ff;
   text-align: center;
-  padding: 3rem 1.5rem;
+  padding: 3rem 10%;
 }
 
 .about-mission {
@@ -147,6 +151,7 @@
 
 @media (max-width: 768px) {
 
+  .about-hero,
   .about-team,
   .about-impact,
   .about-mission {
